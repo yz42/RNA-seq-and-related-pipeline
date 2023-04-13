@@ -4,8 +4,8 @@
 
 
 ###first to build index for the ref genome
-#usage: to substitute the contents in <> with actual path (absolute path recommonded)
-Rscript 00.build_index.R <index_base_name_that_you_want_to_create> <path_ref_genome.fa>
+
+Rscript 00.build_index.R 
 
 
 ###2nd to align reads to ref genome using Rsubread
